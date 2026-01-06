@@ -26,15 +26,27 @@
         <div class="box bl-0 bb-0"><span class="boxtext"></span></div>
         <div class="box bb-0"><span class="boxtext"></span></div>
         <div class="box bb-0 br-0"><span class="boxtext"></span></div>
+        <div class="win-line" id="win-line"></div>
       </div>
       <div class="gameInfo">
         <h1>Tic Tac Toe</h1>
-        <div>
+        <p class="subtext">Claim three in a row before your opponent does.</p>
+        <div class="mode-toggle">
+          <label>
+            <input type="radio" name="mode" value="pvp" checked />
+            2 Players
+          </label>
+          <label>
+            <input type="radio" name="mode" value="cpu" />
+            Vs Computer
+          </label>
+        </div>
+        <div class="status-bar">
           <span class="info">Turn for X</span>
           <button id="reset">Reset</button>
         </div>
         <div class="imgbox">
-          <img src="excited.gif" alt="" />
+          <img src="excited.gif" alt="Player wins celebration" />
         </div>
       </div>
     </div>
